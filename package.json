@@ -1,0 +1,21 @@
+{
+  "name": "stevenson",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "scripts": {
+    "build": "bun --bun .",
+    "dev": "bun --bun ./strava/server.ts",
+    "publish": "bun --bun ./strava/upload.ts"
+  },
+  "dependencies": {
+    "dayjs": "^1.11.13",
+    "geolib": "^3.3.4",
+    "gpx-parser-builder": "^1.1.1"
+  }
+}
