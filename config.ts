@@ -11,7 +11,7 @@ const config = {
   } as Schedule,
   dates: {
     today: new Date(),
-    startingDate: new Date("2024-06-05"), // euro format, year-month-day
+    startingDate: new Date("2025-02-07"), // euro format, year-month-day
   },
 };
 
