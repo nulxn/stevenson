@@ -31,7 +31,7 @@ Also, edit config.ts to have your Strava username (does not have to be the one a
 
 - Build output folder: `bun --bun run build`
 - OAuth2 Strava Server (to get auth key): `bun --bun run dev`
-- Upload runs to Strava: `bun --bun run deploy`
+- Upload runs to Strava: `bun --bun run publish`
 
 ## Configuration
 
